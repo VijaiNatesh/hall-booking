@@ -8,6 +8,9 @@ const bookingRoute = require('./routes/bookingRoute')
 
 
 app.use(express.json())
+app.get('/', (req, res) => {
+    res.send('API for hallBooking')
+})
 app.use("/api/room", roomRoute)
 app.use("/api/user", userRoute)
 app.use("/api/booking", bookingRoute)
