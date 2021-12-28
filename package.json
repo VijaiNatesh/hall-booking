@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "\"Hall Booking Api using Node and MongoDB",
   "main": "server.js",
+  "engines": {
+    "node" : "14.17.6",
+    "npm":  "7.24.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
